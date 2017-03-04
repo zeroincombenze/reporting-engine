@@ -10,8 +10,11 @@
 This repository hosts alternative reporting engines to the ones included on Odoo core (RML and Webkit). It is complemented with the ones that host the reports theirself:
 
 https://launchpad.net/account-financial-report
+
 https://launchpad.net/purchase-report
+
 https://launchpad.net/sale-reports
+
 ...
 
 The convention is to use a suffix to each module to indicate that it's for using with that report engine (for example, account_invoice_report_birt or sale_order_report_pentaho).
