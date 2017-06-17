@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reporting-engine (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-15 19:59+0000\n"
-"PO-Revision-Date: 2016-09-09 12:25+0000\n"
+"POT-Creation-Date: 2017-03-28 06:59+0000\n"
+"PO-Revision-Date: 2017-04-25 10:39+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Galician (http://www.transifex.com/oca/OCA-reporting-engine-8-0/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr ""
 #. module: report_qweb_signer
 #: field:report.certificate,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Compañía"
 
 #. module: report_qweb_signer
 #: field:report.certificate,create_uid:0
@@ -89,7 +89,7 @@ msgstr ""
 #. module: report_qweb_signer
 #: field:report.certificate,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última modificación"
 
 #. module: report_qweb_signer
 #: field:report.certificate,write_uid:0
@@ -174,7 +174,7 @@ msgstr ""
 #. module: report_qweb_signer
 #: field:report.certificate,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Secuencia"
 
 #. module: report_qweb_signer
 #: code:addons/report_qweb_signer/models/report.py:139
