@@ -3,12 +3,15 @@
 [![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/reporting-engine/badge.svg?branch=9.0)](https://coveralls.io/github/zeroincombenze/reporting-engine?branch=9.0)
 [![codecov](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/9.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/9.0)
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-9.svg)](https://github.com/OCA/reporting-engine/tree/9.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/dev/9.0)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/man/)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](http://erp9.zeroincombenze.it)
 
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+================================================================================================
+
 OCA alternative reporting engines and reporting utilities for Odoo
-==================================================================
 
 This repository hosts alternative reporting engines to the ones included on Odoo core (RML, QWeb and Webkit). It is complemented with the ones that host the reports theirself:
 
@@ -23,14 +26,12 @@ It can contain also another utilities directly involved with reports (like merge
 
 [//]: # (addons)
 Available addons
-----------------
 addon | version | summary
 --- | --- | ---
 [report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 9.0.1.0.0 | Report Qweb Element Page Visibility
 [report_xlsx](report_xlsx/) | 9.0.1.0.1 | Base module to create xlsx report
 
 Unported addons
----------------
 addon | version | summary
 --- | --- | ---
 [base_report_assembler](base_report_assembler/) | 1.0 (unported) | Base Report Assembler
