@@ -1,10 +1,20 @@
-.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+[![Build Status](https://travis-ci.org/zeroincombenze/reporting-engine.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/reporting-engine)
+[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
+[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/reporting-engine/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/reporting-engine?branch=10.0)
+[![codecov](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/10.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/reporting-engine/tree/10.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+================================================================
    :alt: License: AGPL-3
 
-===========
 Report Py3o
-===========
 
 The py3o reporting engine is a reporting engine for Odoo based on `Libreoffice <http://www.libreoffice.org/>`_:
 
@@ -25,7 +35,8 @@ The key advantages of a Libreoffice-based reporting engine are:
 This reporting engine is an alternative to `Aeroo <https://github.com/aeroo/aeroo_reports>`_: these 2 reporting engines have similar features but their codes are completely different.
 
 Installation
-============
+------------
+
 
 You must install 2 additionnal python libs:
 
@@ -46,20 +57,17 @@ It is also possible to use the Python driver for Libreoffice (PyUNO), but it is 
 
 The installation procedure below uses the Java driver. It has been successfully tested on Ubuntu 16.04 LTS ; if you use another OS, you may have to change a few details.
 
-Installation of py3o.fusion:
 
 .. code::
 
   pip install py3o.fusion
   pip install service-identity
 
-Installation of py3o.renderserver:
 
 .. code::
 
   pip install py3o.renderserver
 
-Installation of Libreoffice and JRE on Debian/Ubuntu:
 
 .. code::
 
@@ -107,7 +115,8 @@ After **-Djava.class.path**, there is a list of Java libs with *.jar* extension 
 To check that the Py3o Fusion server is running fine, visit the URL http://<IP_address>:8765/form. On this web page, under the section *Target format*, make sure that you have a line *This server currently supports these formats: ods, odt, docx, doc, html, docbook, pdf, xls.*.
 
 Configuration
-=============
+-------------
+
 
 For example, to replace the native invoice report by a custom py3o report, add the following XML file in your custom module:
 
@@ -211,6 +220,8 @@ If you want to add a new py3o PDF report (and not replace a native report), the 
   </odoo>
 
 Usage
+-----
+
 =====
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -218,12 +229,14 @@ Usage
    :target: https://runbot.odoo-community.org/runbot/143/10.0
 
 Known issues / Roadmap
-======================
+----------------------
+
 
 * generate barcode ?
 
 Bug Tracker
-===========
+-----------
+
 
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/reporting-engine/issues>`_. In case of trouble, please
@@ -231,10 +244,13 @@ check there if your issue has already been reported. If you spotted it first,
 help us smashing it by providing a detailed and welcomed feedback.
 
 Credits
-=======
+-------
 
-Contributors
-------------
+
+[![Odoo Italia Associazione]]
+
+### Contributors
+
 
 * Florent Aide (`XCG Consulting <http://odoo.consulting/>`_)
 * Laurent Mignon <laurent.mignon@acsone.eu>,
@@ -242,8 +258,10 @@ Contributors
 * Guewen Baconnier <guewen.baconnier@camptocamp.com>
 
 
-Maintainer
-----------
+### Funders
+
+### Maintainer
+
 
 .. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
@@ -256,3 +274,27 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 To contribute to this module, please visit https://odoo-community.org.
+
+[//]: # (copyright)
+
+----
+
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+
+**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
+which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
+[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+is mainly designed for Italian law and markeplace.
+Everytime, every Odoo DB and customized code can be deployed on local server too.
+
+[//]: # (end copyright)
+
+[//]: # (addons)
+
+[//]: # (end addons)
+
+[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)

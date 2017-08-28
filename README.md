@@ -10,6 +10,7 @@
 
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 ================================================================================================
+================================================================================================
 
 OCA alternative reporting engines and reporting utilities for Odoo
 
@@ -26,7 +27,9 @@ It can contain also another utilities directly involved with reports (like merge
 
 [//]: # (addons)
 
+
 Available addons
+----------------
 addon | version | summary
 --- | --- | ---
 [report_py3o](report_py3o/) | 10.0.1.1.0 | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
@@ -39,6 +42,7 @@ addon | version | summary
 
 
 Unported addons
+---------------
 addon | version | summary
 --- | --- | ---
 [base_report_assembler](base_report_assembler/) | 1.0 (unported) | Base Report Assembler
