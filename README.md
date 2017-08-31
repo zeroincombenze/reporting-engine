@@ -43,4 +43,17 @@ is mainly designed for Italian law and markeplace.
 Everytime, every Odoo DB and customized code can be deployed on local server too.
 
 [//]: # (end copyright)
+[//]: # (addons)
+
+
+Available addons
+----------------
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[base_report_assembler](base_report_assembler/) | 1.0 |  N/D  | Assemble multiple reports in one PDF
+[report_custom_filename](report_custom_filename/) | 1.0 |  N/D  | Configure the filename to use when downloading a report
+[report_xls](report_xls/) | 0.6 |  N/D  | Excel report engine
+
+[//]: # (end addons)
+
 [![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
