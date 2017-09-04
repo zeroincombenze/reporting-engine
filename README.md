@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 ================================================================================================
 ================================================================================================
 
@@ -30,22 +30,22 @@ It can contain also another utilities directly involved with reports (like merge
 
 Available addons
 ----------------
-addon | version | summary
---- | --- | ---
-[report_py3o](report_py3o/) | 10.0.1.1.0 | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
-[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 10.0.1.0.0 | Report Qweb Element Page Visibility
-[report_qweb_parameter](report_qweb_parameter/) | 10.0.1.0.1 | Add new parameters for qweb templates in order to reduce field length and check minimal length
-[report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 10.0.1.0.0 | Add watermarks to your QWEB PDF reports
-[report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 10.0.1.0.1 | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
-[report_xlsx](report_xlsx/) | 10.0.1.0.1 | Base module to create xlsx report
-[report_xml](report_xml/) | 10.0.1.0.0 | Allow to generate XML reports
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[report_py3o](report_py3o/) | 10.0.1.1.0 | :repeat: | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
+[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 10.0.1.0.0 | :repeat: | Report Qweb Element Page Visibility
+[report_qweb_parameter](report_qweb_parameter/) | 10.0.1.0.1 | :repeat: | Add new parameters for qweb templates in order to reduce field length and check minimal length
+[report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 10.0.1.0.0 | :repeat: | Add watermarks to your QWEB PDF reports
+[report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 10.0.1.0.1 | :repeat: | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
+[report_xlsx](report_xlsx/) | 10.0.1.0.1 | :repeat: | Base module to create xlsx report
+[report_xml](report_xml/) | 10.0.1.0.0 | :repeat: | Allow to generate XML reports
 
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[base_report_assembler](base_report_assembler/) | 1.0 (unported) | Base Report Assembler
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[base_report_assembler](base_report_assembler/) | 1.0 (unported) | :repeat: | Base Report Assembler
 
 [//]: # (end addons)
 
