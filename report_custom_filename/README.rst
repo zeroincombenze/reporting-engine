@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](http://erp9.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 Custom report filenames
 =======================
@@ -18,8 +18,10 @@ This addon allows for custom filenames for reports.
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 To configure this module, open the report whose filename you want to change and fill in the `Download filename` field. This field is evaluated as jinja2 template with `objects` being a list of browse records of the records to print, and `o` the first record. If your model contains a name field, you might write something like `${o.name}_report.pdf` as filename.
@@ -27,11 +29,15 @@ To configure this module, open the report whose filename you want to change and 
 Usage
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/reporting-engine/issues>`_.
@@ -47,9 +53,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Holger Brunn <hbrunn@therp.nl>
@@ -62,6 +71,8 @@ Icon courtesy of http://www.picol.org/ (download_settings.svg)
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: http://odoo-community.org/logo.png

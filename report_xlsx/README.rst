@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](http://erp9.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 =================================================================
@@ -22,6 +22,7 @@ Installation
 ------------
 
 
+
 Make sure you have ``xlsxwriter`` Python module installed::
 
 $ pip install xlsxwriter
@@ -29,7 +30,10 @@ $ pip install xlsxwriter
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -76,8 +80,10 @@ A report XML record ::
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/reporting-engine/issues>`_.
@@ -89,9 +95,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Adrien Peiffer <adrien.peiffer@acsone.eu>
@@ -99,6 +108,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

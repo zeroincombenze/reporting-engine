@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](http://erp9.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 ================================================================================================
 ================================================================================================
 
@@ -30,19 +30,19 @@ It can contain also another utilities directly involved with reports (like merge
 
 Available addons
 ----------------
-addon | version | summary
---- | --- | ---
-[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 9.0.1.0.0 | Report Qweb Element Page Visibility
-[report_xlsx](report_xlsx/) | 9.0.1.0.1 | Base module to create xlsx report
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 9.0.1.0.0 | :repeat: | Report Qweb Element Page Visibility
+[report_xlsx](report_xlsx/) | 9.0.1.0.1 | :repeat: | Base module to create xlsx report
 
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[base_report_assembler](base_report_assembler/) | 1.0 (unported) | Base Report Assembler
-[report_custom_filename](report_custom_filename/) | 8.0.1.0.0 (unported) | Configure the filename to use when downloading a report
-[report_xls](report_xls/) | 8.0.0.6.1 (unported) | Excel report engine
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[base_report_assembler](base_report_assembler/) | 1.0 (unported) | :repeat: | Base Report Assembler
+[report_custom_filename](report_custom_filename/) | 8.0.1.0.0 (unported) | 9.0.1.0.0 | Configure the filename to use when downloading a report
+[report_xls](report_xls/) | 8.0.0.6.1 (unported) | :x: | Excel report engine
 
 [//]: # (end addons)
 
