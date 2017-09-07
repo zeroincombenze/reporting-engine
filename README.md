@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-7.svg)](http://erp7.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 ================================================================================================
 ================================================================================================
 
@@ -50,9 +50,9 @@ Available addons
 ----------------
 addon | version | OCA version | summary
 --- | --- | --- | ---
-[base_report_assembler](base_report_assembler/) | 1.0 |  N/D  | Assemble multiple reports in one PDF
-[report_custom_filename](report_custom_filename/) | 1.0 |  N/D  | Configure the filename to use when downloading a report
-[report_xls](report_xls/) | 0.6 |  N/D  | Excel report engine
+[base_report_assembler](base_report_assembler/) | 1.0 | :repeat: | Assemble multiple reports in one PDF
+[report_custom_filename](report_custom_filename/) | 1.0 | :repeat: | Configure the filename to use when downloading a report
+[report_xls](report_xls/) | 0.6 | :repeat: | Excel report engine
 
 [//]: # (end addons)
 
