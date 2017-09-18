@@ -26,6 +26,7 @@ Installation
 
 
 
+
 To install this module, you need to:
 
 * Install lxml_ in Odoo's ``$PYTHONPATH``.
@@ -39,7 +40,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -87,13 +91,16 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
 
 
 
+
 Credits
 -------
+
 
 
 
@@ -104,7 +111,9 @@ Credits
 
 
 
+
 ### Contributors
+
 
 
 
@@ -115,6 +124,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
