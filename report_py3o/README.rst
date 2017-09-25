@@ -41,6 +41,7 @@ Installation
 
 
 
+
 You must install 2 additionnal python libs:
 
 .. code::
@@ -119,6 +120,7 @@ To check that the Py3o Fusion server is running fine, visit the URL http://<IP_a
 
 Configuration
 -------------
+
 
 
 
@@ -234,6 +236,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -247,10 +251,12 @@ Known issues / Roadmap
 
 
 
+
 * generate barcode ?
 
 Bug Tracker
 -----------
+
 
 
 
@@ -268,12 +274,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -288,6 +297,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
