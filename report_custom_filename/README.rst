@@ -21,8 +21,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -39,14 +41,18 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -68,12 +74,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -89,6 +98,8 @@ Icon courtesy of http://www.picol.org/ (download_settings.svg)
 ### Funders
 
 ### Maintainer
+
+
 
 
 
