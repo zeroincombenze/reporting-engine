@@ -13,6 +13,7 @@
 ================================================================================================
 
 This repository hosts alternative reporting engines to the ones included on Odoo core (RML and Webkit). It is complemented with the ones that host the reports theirself:
+================================================================================================
 
 https://launchpad.net/account-financial-report
 
