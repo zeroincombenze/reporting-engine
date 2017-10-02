@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Report Wkhtmltopdf Param
+========================
 
 This module allows you to add new parameters for a paper format which are
 then forwarded to wkhtmltopdf command as arguments. To display the arguments
@@ -42,6 +43,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -97,7 +100,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Report Py3o
+===========
 
 The py3o reporting engine is a reporting engine for Odoo based on `Libreoffice <http://www.libreoffice.org/>`_:
 
@@ -238,6 +239,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -275,7 +278,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

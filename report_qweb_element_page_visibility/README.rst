@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Report Qweb Element Page Visibility
+===================================
 
 This module allows you to use 4 classes in QWEB reports:
 
@@ -38,6 +39,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -104,7 +107,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

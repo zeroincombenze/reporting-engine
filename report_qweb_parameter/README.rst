@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Report QWeb Parameter
+=====================
 
 This module allows you to add new parameters on QWeb reports.
 Currently, we have defined a field maximum on a report and a validation of
@@ -40,6 +41,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -93,7 +96,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

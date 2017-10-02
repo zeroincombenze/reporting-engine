@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Base report xlsx
+================
 
 This module provides a basic report class to generate xlsx report.
 
@@ -38,6 +39,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -117,7 +120,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

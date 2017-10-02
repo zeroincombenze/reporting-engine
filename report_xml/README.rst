@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 	
 XML Reports
+===========
 
 This module was written to extend the functionality of the reporting engine to
 support XML reports and allow modules to generate them by code or by QWeb
@@ -44,6 +45,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -114,7 +117,6 @@ Credits
 
 * Icon taken from http://commons.wikimedia.org/wiki/File:Text-xml.svg.
 
-[![Odoo Italia Associazione]]
 
 
 
