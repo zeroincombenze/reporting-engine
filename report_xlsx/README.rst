@@ -51,6 +51,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 An example of XLSX report for partners:
