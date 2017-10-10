@@ -13,6 +13,7 @@
 ================================================================================================
 
 OCA alternative reporting engines and reporting utilities for Odoo
+==================================================================
 
 This repository hosts alternative reporting engines to the ones included on Odoo core (RML, QWeb and Webkit). It is complemented with the ones that host the reports theirself:
 
