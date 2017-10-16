@@ -231,17 +231,11 @@ If you want to add a new py3o PDF report (and not replace a native report), the 
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 
