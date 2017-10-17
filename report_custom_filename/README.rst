@@ -35,15 +35,10 @@ To configure this module, open the report whose filename you want to change and 
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
 Known issues / Roadmap
 ----------------------
