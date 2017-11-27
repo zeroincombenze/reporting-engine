@@ -12,6 +12,8 @@
 
 
 
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 OCA alternative reporting engines and reporting utilities for Odoo
@@ -35,7 +37,7 @@ Available addons
 ----------------
 addon | version | OCA version | summary
 --- | --- | --- | ---
-[report_py3o](report_py3o/) | 10.0.1.1.0 | :repeat: | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
+[report_py3o](report_py3o/) | 10.0.1.1.0 | 10.0.1.2.0 | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
 [report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 10.0.1.0.0 | :repeat: | Report Qweb Element Page Visibility
 [report_qweb_parameter](report_qweb_parameter/) | 10.0.1.0.1 | :repeat: | Add new parameters for qweb templates in order to reduce field length and check minimal length
 [report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 10.0.1.0.0 | 10.0.1.0.1 | Add watermarks to your QWEB PDF reports
