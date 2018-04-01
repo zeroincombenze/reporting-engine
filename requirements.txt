@@ -1,0 +1,4 @@
+xlwt
+PyPDF2
+fdfgen
+jinja2==2.7.3
