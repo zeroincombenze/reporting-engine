@@ -1,8 +1,63 @@
+[![Build Status](https://travis-ci.org/zeroincombenze/reporting-engine.svg?branch=8.0)](https://travis-ci.org/zeroincombenze/reporting-engine)
+[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
+[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/reporting-engine/badge.svg?branch=8.0)](https://coveralls.io/github/zeroincombenze/reporting-engine?branch=8.0)
+[![codecov](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/8.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/8.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-8.svg)](https://github.com/OCA/reporting-engine/tree/8.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/man/)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-===========================================================
 BI Views builder, based on Materialized or Normal SQL Views
 ===========================================================
 
@@ -23,7 +78,6 @@ By default, users member of 'SQL Request / User' can see all the views.
 You can specify extra groups that have the right to access to a specific view.
 
 Warning
--------
 This module is intended for technician people in a company and for Odoo integrators.
 
 It requires the user to know SQL syntax and Odoo models.
@@ -32,7 +86,6 @@ If you don't have such skills, do not try to use this module specially on a prod
 environment.
 
 Use Cases
----------
 
 this module is interesting for the following use cases
 
@@ -47,8 +100,18 @@ this module is interesting for the following use cases
 * You have a lot of data, and classical SQL Views have very bad performance.
   In that case, MATERIALIZED VIEW will be a good solution to reduce display duration
 
+Installation
+------------
+
+
+
+
 Configuration
-=============
+-------------
+
+
+
+
 
 To configure this module, you need to:
 
@@ -89,6 +152,14 @@ To configure this module, you need to:
   search view.
 
 Usage
+-----
+
+
+
+
+
+
+
 =====
 
 To use this module, you need to:
@@ -110,7 +181,11 @@ To use this module, you need to:
    :target: https://runbot.odoo-community.org/runbot/143/8.0
 
 Known issues / Roadmap
-======================
+----------------------
+
+
+
+
 
 * Add 'interval', after type (row/col/measure) field for date(time) fields.
 
@@ -134,7 +209,11 @@ Sample:
     FROM res_partner
 
 Bug Tracker
-===========
+-----------
+
+
+
+
 
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/reporting-engine/issues>`_. In case of trouble, please
@@ -142,10 +221,21 @@ check there if your issue has already been reported. If you spotted it first,
 help us smash it by providing detailed and welcomed feedback.
 
 Credits
-=======
+-------
 
-Contributors
-------------
+
+
+
+
+
+
+
+
+### Contributors
+
+
+
+
 
 * Sylvain LE GAL (https://twitter.com/legalsylvain)
 
@@ -161,15 +251,21 @@ Contributors
       link: https://github.com/grap/odoo-addons-misc/tree/7.0/pos_sale_reporting
 
 
-Funders
--------
+### Funders
+
+### Maintainer
+
+
+
+
+
+
+
 
 The development of this module has been financially supported by:
 
 * GRAP, Groupement Régional Alimentaire de Proximité (http://www.grap.coop)
 
-Maintainer
-----------
 
 .. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
@@ -182,3 +278,27 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 To contribute to this module, please visit https://odoo-community.org.
+
+[//]: # (copyright)
+
+----
+
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+
+**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
+which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
+[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+is mainly designed for Italian law and markeplace.
+Everytime, every Odoo DB and customized code can be deployed on local server too.
+
+[//]: # (end copyright)
+
+[//]: # (addons)
+
+[//]: # (end addons)
+
+[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
