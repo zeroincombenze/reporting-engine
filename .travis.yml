@@ -36,6 +36,7 @@ addons:
       - libffi-dev
       - libssl-dev
       - python-setuptools
+      - libreoffice
 
 before_install:
   - export TRAVIS_DEBUG_MODE="1"
@@ -45,6 +46,7 @@ before_install:
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
 
 install:
+  - export WKHTMLTOPDF_VERSION=0.12.4
   - travis_install_env
   # tests of document_ftp and delivery fail. The following two are excluded because they depend on delivery
   # account_invoice_sequential_dates fails with FatturaPA 

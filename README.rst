@@ -24,51 +24,52 @@ The convention is to use a suffix to each module to indicate that it's for using
 It can contain also another utilities directly involved with reports (like merge/split utils, checkers, signing tools and so on).
 
 
-|it| Motore Stampe
+|it| Motore Rendiconti
 
-Progetto basato sui moduli OCA motore stampe
+Progetto basato sui moduli OCA motore rendiconti
 
 Avaiable Addons / Moduli disponibili
 ------------------------------------
 
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| Name / Nome                         | Version    | OCA Ver.   | Description / Descrizione                          |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| base_report_assembler               | |halt|     | |halt|     | Base Report Assembler                              |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| bi_sql_editor                       | 10.0.1.0.0 | |same|     | BI Views builder, based on Materialized or Normal  |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| bi_view_editor                      | 10.0.1.0.2 | |same|     | Graphical BI views builder for Odoo                |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_py3o                         | 10.0.2.0.2 | |same|     | Reporting engine based on Libreoffice (ODT -> ODT, |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_py3o_fusion_server           | |halt|     | |same|     | Let the fusion server handle format conversion.    |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_qweb_element_page_visibility | 10.0.1.0.0 | |same|     | Report Qweb Element Page Visibility                |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_qweb_parameter               | 10.0.1.0.1 | |same|     | Add new parameters for qweb templates in order to  |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_qweb_pdf_watermark           | 10.0.1.0.2 | |same|     | Add watermarks to your QWEB PDF reports            |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_qweb_signer                  | 10.0.1.0.1 | |same|     | Sign Qweb PDFs usign a PKCS#12 certificate         |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_qweb_txt                     | 10.0.1.0.0 | |same|     | Use Qweb to generate text and CSV reports          |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_wkhtmltopdf_param            | 10.0.1.0.1 | |same|     | Add new parameters for a paper format to be used b |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_xlsx                         | 10.0.1.0.1 | |same|     | Base module to create xlsx report                  |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_xlsx_helper                  | 10.0.1.0.0 | |same|     | Report xlsx helpers                                |
-+-------------------------------------+------------+------------+----------------------------------------------------+
-| report_xml                          | 10.0.1.0.0 | |same|     | Allow to generate XML reports                      |
-+-------------------------------------+------------+------------+----------------------------------------------------+
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| Name / Nome                         | Version    | OCA Ver.   | Description / Descrizione                                                        |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| base_report_assembler               | |halt|     | |halt|     | Base Report Assembler                                                            |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| bi_sql_editor                       | 10.0.1.0.0 | |same|     | BI Views builder, based on Materialized or Normal SQL Views                      |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| bi_view_editor                      | 10.0.1.0.2 | |same|     | Graphical BI views builder for Odoo                                              |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_py3o                         | |halt|     | |same|     | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT - |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_py3o_fusion_server           | |halt|     | |same|     | Let the fusion server handle format conversion.                                  |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_qweb_element_page_visibility | 10.0.1.0.0 | |same|     | Report Qweb Element Page Visibility                                              |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_qweb_parameter               | 10.0.1.0.1 | |same|     |  Add new parameters for qweb templates in order to reduce field length and check |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_qweb_pdf_watermark           | 10.0.1.0.2 | |same|     | Add watermarks to your QWEB PDF reports                                          |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_qweb_signer                  | 10.0.1.0.1 | |same|     | Sign Qweb PDFs usign a PKCS#12 certificate                                       |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_qweb_txt                     | 10.0.1.0.0 | |same|     | Use Qweb to generate text and CSV reports                                        |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_wkhtmltopdf_param            | 10.0.1.0.1 | |same|     |  Add new parameters for a paper format to be used by wkhtmltopdf command as argu |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_xlsx                         | 10.0.1.0.1 | |same|     |  Base module to create xlsx report                                               |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_xlsx_helper                  | 10.0.1.0.0 | |same|     | Report xlsx helpers                                                              |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
+| report_xml                          | 10.0.1.0.0 | |same|     | Allow to generate XML reports                                                    |
++-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 
 
 OCA comparation / Confronto con OCA
 -----------------------------------
 
+
 +-----------------------------------------------------------------+-------------------+-----------------------+--------------------------------+
-| Description / Descrizione                                       | Odoo Italia       | OCA                   | Notes / Note                   |
+| Description / Descrizione                                       | Zeroincombenze    | OCA                   | Notes / Note                   |
 +-----------------------------------------------------------------+-------------------+-----------------------+--------------------------------+
 | Coverage / Copertura test                                       |  |Codecov Status| | |OCA Codecov Status|  | |OCA project|                  |
 +-----------------------------------------------------------------+-------------------+-----------------------+--------------------------------+
@@ -142,7 +143,7 @@ Support / Supporto
 ------------------
 
 
-|Zeroincombenze| This module is maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+|Zeroincombenze| This project is mainly maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 
 
@@ -181,9 +182,9 @@ which distributes and promotes ready-to-use **Odoo** on own cloud infrastructure
 `Zeroincombenze® distribution of Odoo <https://wiki.zeroincombenze.org/en/Odoo>`__
 is mainly designed to cover Italian law and markeplace.
 
-|it| **zeroincombenze®** è un marchio registrato di `SHS-AV s.r.l. <https://www.shs-av.com/>`__
-che distribuisce e promuove **Odoo** pronto all'uso sullla propria infrastuttura.
-La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato italiano.
+|it| **zeroincombenze®** è un marchio registrato da `SHS-AV s.r.l. <https://www.shs-av.com/>`__
+che distribuisce e promuove **Odoo** pronto all'uso sulla propria infrastuttura.
+La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ è progettata per le esigenze del mercato italiano.
 
 
 |chat_with_us|
@@ -191,7 +192,8 @@ La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato ita
 
 |
 
-Last Update / Ultimo aggiornamento: 2019-04-12
+
+Last Update / Ultimo aggiornamento: 2019-04-13
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status

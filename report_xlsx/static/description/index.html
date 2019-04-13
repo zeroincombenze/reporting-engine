@@ -1,0 +1,94 @@
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan" style="color:#162832;">Base module to create xlsx report / Base rendiconti xlsx</h2>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png" alt="English"/>
+            </p>
+<p align="justify">
+This module provides a basic report class to generate xlsx report.
+&lt;/p&gt;
+</p>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png" alt="Italiano"/>
+            </p>
+<p align="justify">
+Progetto basato sui moduli OCA rendiconti xlsx
+&lt;/p&gt;
+</p>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan" style="color:#162832;">Usage / Utilizzo</h3>
+        <div class="oe_span12">
+<p align="justify">
+An example of XLSX report for partners:
+</p><p align="justify">
+A python class ::
+</p><p align="justify">
+    from odoo.addons.report_xlsx.report.report_xlsx import ReportXlsx
+</p><p align="justify">
+    class PartnerXlsx(ReportXlsx):
+    
+        def generate_xlsx_report(self, workbook, data, partners):
+            for obj in partners:
+                report_name = obj.name
+                # One sheet by partner
+                sheet = workbook.add_worksheet(report_name[:31])
+                bold = workbook.add_format({'bold': True})
+                sheet.write(0, 0, obj.name, bold)
+</p><p align="justify">
+</p><p align="justify">
+    PartnerXlsx('report.res.partner.xlsx',
+                'res.partner')
+</p><p align="justify">
+To manipulate the ``workbook`` and ``sheet`` objects, refer to the
+`documentation &lt;http://xlsxwriter.readthedocs.org/&gt;`_ of ``xlsxwriter``.
+</p><p align="justify">
+A report XML record ::
+</p><p align="justify">
+    &lt;report 
+        id="partner_xlsx"
+        model="res.partner"
+        string="Print to XLSX"
+        report_type="xlsx"
+        name="res.partner.xlsx"
+        file="res.partner.xlsx"
+        attachment_use="False"
+    /&gt;
+</p><p align="justify">
+.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
+   :alt: Try me on Runbot
+   :target: https://runbot.odoo-community.org/runbot/143/10.0
+</p>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_separator"/>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span6" align="left">
+            <p class="oe_mt16">Authors / Autori:</p>
+<p align="justify">
+            &lt;p class="oe_mt16"&gt;* Odoo Community Association (OCA) &lt;https://odoo-community.org&gt;
+<ul>
+<li><a href="https://acsone.eu/">Acsone SA/NV</a></li>
+</ul>
+&lt;/p&gt;
+</p>
+        </div>
+        <div class="oe_span6" align="left">
+            <p class="oe_mt16">Contributors / Collaboratori:</p>
+            <p class="oe_mt16"><ul>
+<li>Adrien Peiffer &lt;adrien.peiffer@acsone.eu&gt;</li>
+</ul></p>
+        </div>
+    </div>
+</section>

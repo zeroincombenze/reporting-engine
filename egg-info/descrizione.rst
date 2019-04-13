@@ -1,3 +1,3 @@
-Motore Stampe
+Motore Rendiconti
 
-Progetto basato sui moduli OCA motore stampe
+Progetto basato sui moduli OCA motore rendiconti
