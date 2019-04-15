@@ -36,7 +36,7 @@ Avaiable Addons / Moduli disponibili
 +-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 | base_report_assembler               | |halt|     | |halt|     | Base Report Assembler                                                            |
 +-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
-| bi_sql_editor                       | 10.0.1.0.0 | |same|     | BI Views builder, based on Materialized or Normal SQL Views                      |
+| bi_sql_editor                       | |halt|     | |same|     | BI Views builder, based on Materialized or Normal SQL Views                      |
 +-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 | bi_view_editor                      | 10.0.1.0.2 | |same|     | Graphical BI views builder for Odoo                                              |
 +-------------------------------------+------------+------------+----------------------------------------------------------------------------------+
@@ -193,7 +193,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 |
 
 
-Last Update / Ultimo aggiornamento: 2019-04-13
+Last Update / Ultimo aggiornamento: 2019-04-15
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status

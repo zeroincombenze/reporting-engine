@@ -70,10 +70,6 @@ A report XML record ::
         attachment_use="False"
     />
 
-.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
-   :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/143/10.0
-
 
 |
 
@@ -247,7 +243,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 
 This module is part of reporting-engine project.
 
-Last Update / Ultimo aggiornamento: 2019-04-13
+Last Update / Ultimo aggiornamento: 2019-04-15
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
