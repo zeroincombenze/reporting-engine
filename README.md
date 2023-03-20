@@ -1,60 +1,63 @@
-[![Build Status](https://travis-ci.org/zeroincombenze/reporting-engine.svg?branch=7.0)](https://travis-ci.org/zeroincombenze/reporting-engine)
-[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
-[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/reporting-engine/badge.svg?branch=7.0)](https://coveralls.io/github/zeroincombenze/reporting-engine?branch=7.0)
-[![codecov](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/7.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/reporting-engine/branch/7.0)
-[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-7.svg)](https://github.com/OCA/reporting-engine/tree/7.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-7.svg)](http://wiki.zeroincombenze.org/en/Odoo/7.0/dev)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-7.svg)](http://wiki.zeroincombenze.org/en/Odoo/7.0/man/)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-7.svg)](http://erp7.zeroincombenze.it)
 
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/reporting-engine&target_branch=14.0)
+[![Pre-commit Status](https://github.com/OCA/reporting-engine/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/reporting-engine/actions/workflows/pre-commit.yml?query=branch%3A14.0)
+[![Build Status](https://github.com/OCA/reporting-engine/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/reporting-engine/actions/workflows/test.yml?query=branch%3A14.0)
+[![codecov](https://codecov.io/gh/OCA/reporting-engine/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/reporting-engine)
+[![Translation Status](https://translation.odoo-community.org/widgets/reporting-engine-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/reporting-engine-14-0/?utm_source=widget)
 
-[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
-================================================================================================
-================================================================================================
+<!-- /!\ do not modify above this line -->
 
-This repository hosts alternative reporting engines to the ones included on Odoo core (RML and Webkit). It is complemented with the ones that host the reports theirself:
-================================================================================================
+# reporting-engine
 
-https://launchpad.net/account-financial-report
+TODO: add repo description.
 
-https://launchpad.net/purchase-report
+<!-- /!\ do not modify below this line -->
 
-https://launchpad.net/sale-reports
+<!-- prettier-ignore-start -->
 
-...
-
-The convention is to use a suffix to each module to indicate that it's for using with that report engine (for example, account_invoice_report_birt or sale_order_report_pentaho).
-
-It can contain also another utilities directly involved with reports (like merge/split utils, checkers, signing tools and so on).
-
-[//]: # (copyright)
-
-----
-
-**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
-
-**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
-
-**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
-which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
-[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
-is mainly designed for Italian law and markeplace.
-Everytime, every Odoo DB and customized code can be deployed on local server too.
-
-[//]: # (end copyright)
 [//]: # (addons)
-
 
 Available addons
 ----------------
-addon | version | OCA version | summary
+addon | version | maintainers | summary
 --- | --- | --- | ---
-[base_report_assembler](base_report_assembler/) | 1.0 | :repeat: | Assemble multiple reports in one PDF
-[report_custom_filename](report_custom_filename/) | 1.0 | :repeat: | Configure the filename to use when downloading a report
-[report_xls](report_xls/) | 0.6 | :repeat: | Excel report engine
+[base_comment_template](base_comment_template/) | 14.0.4.0.0 |  | Add conditional mako template to any reporton models that inherits comment.template.
+[bi_sql_editor](bi_sql_editor/) | 14.0.1.0.4 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | BI Views builder, based on Materialized or Normal SQL Views
+[bi_view_editor](bi_view_editor/) | 14.0.1.0.0 |  | Graphical BI views builder for Odoo
+[kpi_dashboard](kpi_dashboard/) | 14.0.1.1.1 | [![etobella](https://github.com/etobella.png?size=30px)](https://github.com/etobella) | Create Dashboards using kpis
+[kpi_dashboard_bokeh](kpi_dashboard_bokeh/) | 14.0.1.0.0 |  | Create dashboards using bokeh
+[report_async](report_async/) | 14.0.1.1.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Central place to run reports live or async
+[report_context](report_context/) | 14.0.1.0.2 |  | Adding context to reports
+[report_csv](report_csv/) | 14.0.1.0.0 |  | Base module to create csv report
+[report_label](report_label/) | 14.0.1.0.2 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Print configurable self-adhesive labels reports
+[report_layout_config](report_layout_config/) | 14.0.1.0.0 |  | Add possibility to easily modify the global report layout
+[report_py3o](report_py3o/) | 14.0.1.0.3 |  | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
+[report_py3o_fusion_server](report_py3o_fusion_server/) | 14.0.1.0.0 |  | Let the fusion server handle format conversion.
+[report_qr](report_qr/) | 14.0.1.0.1 |  | Web QR Manager
+[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 14.0.1.0.0 |  | Report Qweb Element Page Visibility
+[report_qweb_encrypt](report_qweb_encrypt/) | 14.0.1.1.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Allow to encrypt qweb pdfs
+[report_qweb_parameter](report_qweb_parameter/) | 14.0.1.0.0 |  | Add new parameters for qweb templates in order to reduce field length and check minimal length
+[report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 14.0.1.0.1 |  | Add watermarks to your QWEB PDF reports
+[report_qweb_signer](report_qweb_signer/) | 14.0.2.0.1 |  | Sign Qweb PDFs usign a PKCS#12 certificate
+[report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 14.0.1.0.0 |  | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
+[report_xlsx](report_xlsx/) | 14.0.1.0.10 |  | Base module to create xlsx report
+[report_xlsx_helper](report_xlsx_helper/) | 14.0.1.0.2 |  | Report xlsx helpers
+[report_xlsx_helper_demo](report_xlsx_helper_demo/) | 14.0.1.0.0 |  | Report xlsx helpers - demo
+[report_xml](report_xml/) | 14.0.1.0.3 |  | Allow to generate XML reports
 
 [//]: # (end addons)
 
-[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
+<!-- prettier-ignore-end -->
+
+## Licenses
+
+This repository is licensed under [AGPL-3.0](LICENSE).
+
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
+policy. Consult each module's `__manifest__.py` file, which contains a `license` key
+that explains its license.
+
+----
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
+organization whose mission is to support the collaborative development of Odoo features
+and promote its widespread use.
