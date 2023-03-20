@@ -1,4 +1,8 @@
-xlwt
+# generated from manifests external_dependencies
+altair
+py3o.formats
+py3o.template
+pydot
 PyPDF2
-fdfgen
-jinja2==2.7.3
+xlrd
+xlsxwriter
