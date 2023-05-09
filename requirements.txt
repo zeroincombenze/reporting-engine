@@ -1,4 +1,4 @@
-xlwt
-PyPDF2
-fdfgen
-jinja2==2.7.3
+# generated from manifests external_dependencies
+lxml
+xlrd
+xlsxwriter
