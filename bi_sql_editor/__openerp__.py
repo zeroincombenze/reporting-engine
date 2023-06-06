@@ -24,5 +24,5 @@
         'demo/res_groups.xml',
         'demo/bi_sql_view.xml',
     ],
-    'installable': True,
+    'installable': False,
 }
