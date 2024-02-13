@@ -1,4 +1,3 @@
-xlwt
-PyPDF2
+xlsxwriter
+xlrd
 fdfgen
-jinja2==2.7.3
